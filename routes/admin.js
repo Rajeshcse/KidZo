@@ -32,7 +32,6 @@ router.use(authorizeRoles('admin'));
 // Apply general admin rate limiting
 router.use(adminLimiter);
 
-
 // Dashboard routes
 router.get('/dashboard', getDashboardStats);
 
