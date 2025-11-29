@@ -1,4 +1,4 @@
-# Kidzo API - Authentication System
+# efish API - Authentication System
 
 A Node.js/Express REST API with MongoDB for user authentication featuring registration, login, and profile management.
 
@@ -25,8 +25,8 @@ A Node.js/Express REST API with MongoDB for user authentication featuring regist
 
 1. Clone the repository
 ```bash
-git clone https://github.com/Rajeshcse/KidZo.git
-cd KidZo
+git clone https://github.com/Rajeshcse/efish.git
+cd efish
 ```
 
 2. Install dependencies
@@ -91,7 +91,7 @@ Authorization: Bearer <jwt_token>
 
 ```
 PORT=3000
-MONGODB_URI=mongodb://localhost:27017/kidzo-api
+MONGODB_URI=mongodb://localhost:27017/efish-api
 JWT_SECRET=your-super-secret-jwt-key
 JWT_EXPIRE=7d
 NODE_ENV=development
@@ -100,7 +100,7 @@ NODE_ENV=development
 ## Project Structure
 
 ```
-Kidzo-API/
+efish-API/
 ├── config/
 │   └── database.js          # MongoDB connection
 ├── controllers/
